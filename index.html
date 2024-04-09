@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Cuurency Converter</title>
+</head>
+<body>
+
+	<style type="text/css">
+		body{
+			background: #4B8AAA;
+		}
+
+		.h1{
+			color: white;
+			width: 800px;
+			margin: auto;
+		}
+
+		img{
+			width: 100px;
+		}
+
+		span{
+			background-color: black;
+		}
+
+	</style>
+
+	<br>
+
+	<div class="main text-center">
+
+		<p class="h1">Click the buttons below to convert <span id="peso"></span> PHP to what currencies</p>
+
+		<script>
+			let a = 100; //Philippine Peso Amount
+
+			document.getElementById("peso").innerHTML = a;
+		</script>
+
+		<br>
+
+		<img src="https://deadahead.wiki.gg/images/6/66/Cash.png">
+		<img src="https://deadahead.wiki.gg/images/6/66/Cash.png">
+		<img src="https://deadahead.wiki.gg/images/6/66/Cash.png">
+
+		<br><br>
+
+		<a href="page2.html"><button type="button" class="btn btn-success" style="margin-right: 20px;">$ - US Dollar</button></a>
+		<a href="page3.html"><button type="button" class="btn btn-warning">¥ - Japanese Yen</button></a>
+	</div>
+</body>
+</html>
